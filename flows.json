@@ -97,5 +97,18 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "180a6334d87f069f",
+        "type": "change-stub-state",
+        "z": "d53446ad719f9615",
+        "sessionId": "{{ flow.sessionId }}",
+        "deviceName": "{{ msg.payload.deviceName }}",
+        "stubState": "{}",
+        "x": 290,
+        "y": 280,
+        "wires": [
+            []
+        ]
     }
 ]
