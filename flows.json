@@ -33,5 +33,69 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "472fd0de12b6129e",
+        "type": "switch",
+        "z": "d53446ad719f9615",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "83d97fd2d3121666",
+        "type": "range",
+        "z": "d53446ad719f9615",
+        "minin": "",
+        "maxin": "",
+        "minout": "",
+        "maxout": "",
+        "action": "scale",
+        "round": false,
+        "property": "payload",
+        "name": "",
+        "x": 350,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c5b13d188cc28d1b",
+        "type": "switch",
+        "z": "d53446ad719f9615",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 330,
+        "y": 280,
+        "wires": [
+            []
+        ]
     }
 ]
